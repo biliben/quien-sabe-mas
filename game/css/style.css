@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'plane';
+	src: url('../font/plane.ttf');
+}
+@font-face {
+	font-family: 'game';
+	src: url('../font/game.ttf');
+}
+@font-face {
+	font-family: 'titulo';
+	src: url('../font/tireshop_demo.ttf');
+}
+html,body{
+	position: relative;
+	background: #283747;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	color: white;
+}
+.container{
+	position: relative;
+	top: 10%;
+	height: 80%;
+	background-color: #2e4053;
+	border-radius: 5px;
+}
+.enemigo{
+	background-color: #34495e;
+	height: 10%;
+	border-radius: 5px;
+}
+.tablero{
+	height: 80%;
+	text-align: center;
+	font-family: plane;
+	padding-top: 5%;
+}
+.pregunta{
+	font-size: 2.5em;
+}
+.respuesta{
+	font-size: 1.5em;
+	min-height: 12%;
+	background-color: #85929e;
+	border-radius: 50px;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.respuesta span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.jugador{
+	background-color: #34495e;
+	height: 10%;
+	border-radius: 5px;
+}
+.enemigo_nombre{
+	font-family: titulo;
+	text-align: left;
+	position: relative;
+	height: 100%;
+	font-size: 2em;
+}
+.enemigo_nombre span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.enemigo_foto{
+	position: relative;
+	height: 100%;
+}
+.jugador_nombre{
+	font-family: titulo;
+	text-align: right;
+	position: relative;
+	height: 100%;
+	font-size: 2em;
+}
+.jugador_nombre span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.puntuacion{
+	text-align: center;
+	position: relative;
+	height: 120%;
+	background-color: #5d6d7e;
+	font-family: game;
+	top: -10%;
+	font-size: 3em;
+	border-radius: 5px;
+	padding: 0;
+}
+.jugador_foto{
+	position: relative;
+	height: 100%;
+}
+.tama{
+	position: relative;
+	height: 100%;
+}
+.img_enemigo{
+	position: absolute;
+	height: 100%;
+	right: 0;
+}
+.img_jugador{
+	position: absolute;
+	height: 100%;
+	left: 0;
+}
+.centrado-porcentual {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.ready{
+	width: 50%;
+	height: 50%;
+	background-color: #5D6D7E;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+.final{
+	width: 50%;
+	height: 50%;
+	background-color: #5D6D7E;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+.item-ready{
+	height: 100%;
+	text-align: center;
+	color: #FFFFFA;
+}
+.contador-ready{
+	height: 100%;
+	background-color: #34495E; 
+}
+.no_ready{
+	background-color: #8C3333;
+}
+.si_ready{
+	background-color: #338C63;
+}
+.num_contador{
+	font-size: 8em;
+	font-family: game;
+}
+#yo_ready{
+	cursor: pointer;
+}
+.correcto{
+	background-color: #5cb85c;
+}
+.falso{
+	background-color: #d9534f;
+}
+.correct{
+	font-family: inherit;
+	font-size: 15px;
+	position: relative;
+	background-color: #5cb85c;
+	border-radius: 5px;
+}
+.incorrecto{
+	font-family: inherit;
+	font-size: 15px;
+	position: relative;
+	background-color: #d9534f;
+	border-radius: 5px;
+}
+.progress{
+	height: 5px;
+}
+.salir{
+	height: 50%;
+	background-color: rgba(0,0,0,.5);
+	font-family: game;
+	font-size: 35px;
+	cursor: pointer;
+}
+.resultadofinal{
+	height: 50%;
+	font-family: game;
+	font-size: 35px;
+}
+.gan{
+	background-color: #5cb85c;
+}
+.per{
+	background-color: #D9534F;
+}

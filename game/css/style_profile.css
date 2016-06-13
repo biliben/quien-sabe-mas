@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'plane';
+	src: url('../font/plane.ttf');
+}
+@font-face {
+	font-family: 'game';
+	src: url('../font/game.ttf');
+}
+@font-face {
+	font-family: 'titulo';
+	src: url('../font/tireshop_demo.ttf');
+}
+html,body{
+	position: relative;
+	background: #283747;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	color: white;
+}
+.container{
+	position: relative;
+	top: 10%;
+	height: 80%;
+	background-color: #2e4053;
+	border-radius: 5px;
+}
+.panel{
+	background-color: #34495e;
+	height: 10%;
+	border-radius: 5px;
+}
+.tablero{
+	height: 80%;
+	text-align: left;
+	font-family: plane;
+}
+.apartados{
+	font-family: titulo;
+	text-align: left;
+	position: relative;
+	height: 100%;
+	font-size: 2em;
+	cursor: pointer;
+	text-align: left;
+}
+.enemigo_puntuacion{
+	text-align: center;
+	position: relative;
+	height: 120%;
+	font-family: game;
+	background-color: #5d6d7e;
+	top: -10%;
+	border-radius: 5px;
+	font-size: 6em;
+}
+.foto_perfil{
+	position: relative;
+	height: 100%;
+}
+.tama{
+	position: relative;
+	height: 100%;
+}
+.img{
+	position: absolute;
+	height: 100%;
+	right: 0;
+}
+.img_jugador{
+	position: absolute;
+	height: 100%;
+	left: 0;
+}
+.panel-img{
+	position: absolute;
+	width: auto;
+	float: right;
+	right: 0;
+}
+.click{
+	background-color: #A4C127;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+.nameplayer{
+	background-color: #34495E;
+	text-align: left;
+	border-radius: 5px;
+	padding: 5px;
+}
+.pos-name{
+	bottom: 0;
+	position: absolute;
+}
+.player{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 10px;
+}
